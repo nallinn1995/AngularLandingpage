@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar{
+background-image:linear-gradient(to right, #6441a5, #2a0845);
+}
+
+.navbar .navbar-brand {
+    color:#ffff
+}
+
+.navbar-nav li a{
+ color: #ffff !important;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+
+.fa-bars{
+    color:#fff;
+}
+
+.navbar-toggler{
+    outline:none !important;
+}
